@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "name": "Aniket Avinash Darekar",
+      "age": "81",
+      "address": "At post Jamb, Tal Wai, Dist Satara, At post Jamb, Tal Wai, Dist Satara",
+      "department": "mechanical",
+      "salary": "254324",
+      "married": "yes",
+      "id": 1
+    },
+    {
+      "name": "san",
+      "age": "43",
+      "address": "At Post Jamb,, Tal Wai, Dist Satara",
+      "department": "electronics",
+      "salary": "21",
+      "married": "",
+      "id": 2
+    },
+    {
+      "name": "aai",
+      "age": "55",
+      "address": "jamb",
+      "department": "cse",
+      "salary": "9999999",
+      "married": "yes",
+      "id": 3
+    },
+    {
+      "name": "papa",
+      "age": "45",
+      "address": "bhuinj",
+      "department": "electrical",
+      "salary": "9999",
+      "married": "yes",
+      "id": 4
+    },
+    {
+      "name": "jayashri",
+      "age": "37",
+      "address": "jamb maharashtra",
+      "department": "mechanical",
+      "salary": "20",
+      "married": "yes",
+      "id": 5
+    },
+    {
+      "name": "avinash",
+      "age": "45",
+      "address": "karkhana",
+      "department": "electrical",
+      "salary": "27000",
+      "married": "yes",
+      "id": 6
+    },
+    {
+      "name": "sd",
+      "age": "12",
+      "address": "wda",
+      "department": "electronics",
+      "salary": "254324",
+      "married": "",
+      "id": 7
+    },
+    {
+      "name": "grv",
+      "age": "81",
+      "address": "erfscd",
+      "department": "cse",
+      "salary": "21",
+      "married": "",
+      "id": 8
+    }
+  ]
+}
