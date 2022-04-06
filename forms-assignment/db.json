@@ -10,67 +10,58 @@
       "id": 1
     },
     {
-      "name": "san",
-      "age": "43",
-      "address": "At Post Jamb,, Tal Wai, Dist Satara",
-      "department": "electronics",
-      "salary": "21",
-      "married": "",
+      "name": "t",
+      "age": "5",
+      "address": "t",
+      "department": "mechanical",
+      "salary": "9999999",
+      "married": true,
       "id": 2
     },
     {
-      "name": "aai",
-      "age": "55",
-      "address": "jamb",
-      "department": "cse",
-      "salary": "9999999",
-      "married": "yes",
+      "name": "Aniket Avinash Darekar",
+      "age": "81",
+      "address": "At post Jamb, Tal Wai, Dist Satara, At post Jamb, Tal Wai, Dist Satara",
+      "department": "electronics",
+      "salary": "21",
+      "married": "",
       "id": 3
     },
     {
-      "name": "papa",
-      "age": "45",
-      "address": "bhuinj",
-      "department": "electrical",
-      "salary": "9999",
-      "married": "yes",
+      "name": "Aniket Avinash Darekar",
+      "age": "43",
+      "address": "At post Jamb, Tal Wai, Dist Satara, At post Jamb, Tal Wai, Dist Satara",
+      "department": "electronics",
+      "salary": "5",
+      "married": true,
       "id": 4
     },
     {
-      "name": "jayashri",
-      "age": "37",
-      "address": "jamb maharashtra",
-      "department": "mechanical",
+      "name": "Aniket Avinash Darekar",
+      "age": "81",
+      "address": "At post Jamb, Tal Wai, Dist Satara, At post Jamb, Tal Wai, Dist Satara",
+      "department": "electronics",
       "salary": "20",
-      "married": "yes",
+      "married": false,
       "id": 5
     },
     {
-      "name": "avinash",
-      "age": "45",
-      "address": "karkhana",
-      "department": "electrical",
-      "salary": "27000",
-      "married": "yes",
+      "name": "Aniket Avinash Darekar",
+      "age": "43",
+      "address": "At post Jamb, Tal Wai, Dist Satara, At post Jamb, Tal Wai, Dist Satara",
+      "department": "mechanical",
+      "salary": "20",
+      "married": true,
       "id": 6
     },
     {
-      "name": "sd",
-      "age": "12",
-      "address": "wda",
-      "department": "electronics",
-      "salary": "254324",
-      "married": "",
-      "id": 7
-    },
-    {
-      "name": "grv",
+      "name": "Aniket Avinash Darekar",
       "age": "81",
-      "address": "erfscd",
-      "department": "cse",
-      "salary": "21",
-      "married": "",
-      "id": 8
+      "address": "At post Jamb, Tal Wai, Dist Satara, At post Jamb, Tal Wai, Dist Satara",
+      "department": "electronics",
+      "salary": "20",
+      "married": false,
+      "id": 7
     }
   ]
 }

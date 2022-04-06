@@ -17,21 +17,33 @@ const [formData,setFormData] = useState({
     married:""
 });
 
+
 useEffect(()=>{
-axios.get("http://localhost:3002/users").then((response)=>{
-setData(response.data);
+     axios.get("http://localhost:3002/users").then((response)=>{
+     setData(response.data);
 })
+
 },[call])
 
 
-const handleChange = (e)=>{
+const handleChange = (e)=> {
     const {id,value} = e.target;
     
-    setFormData({
+    if(id==="married") {
+      let isChecked = e.target.checked;
+      setFormData({
         ...formData,
-        [id]:value
-    });
+        [id]:isChecked
+     });
+    } else {
+        setFormData({
+            ...formData,
+            [id]:value
+        });
+    }
+
 }
+
 
 const handleSubmit = (e)=> {
     e.preventDefault();
@@ -45,13 +57,13 @@ const handleSubmit = (e)=> {
         salary:"",
         married:""
     });
-    setCall(true);
+    setCall(!call);
 }
  
 
     return(
         <> 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} >
           <h1>Employee Signup form</h1>
          <input id="name" value={formData.name} type="text" placeholder="enter name" onChange={handleChange}/>
          <br/>
@@ -70,7 +82,7 @@ const handleSubmit = (e)=> {
          <input id="salary" value={formData.salary} type="text" placeholder="enter salary" onChange={handleChange}/>
          <br/>
          <label>Married</label>
-         <input id="married"  type="checkbox" value="yes" name="" onChange={handleChange} />
+         <input id="married"  type="checkbox" value="" name="" onChange={handleChange} />
          <br/>
          <input type="submit" value="Create Employee"/>
       </form>
@@ -99,7 +111,7 @@ const handleSubmit = (e)=> {
                   <td>{item.address}</td>
                   <td>{item.department}</td>
                   <td>{item.salary}</td>
-                  <td>{item.married === ""? "no" : "yes" }</td>
+                  <td>{item.married === true? "yes" : "no" }</td>
               </tr>
           
           </>
